@@ -1,0 +1,55 @@
+body{
+	overflow-y: hidden;
+}
+
+#chat-message-list{
+	height: 300px;
+	width: 450px;
+	border-radius: 10px;
+	background-color: white;
+	overflow-y: hidden;
+	padding: 15px;
+	margin: 10px;
+	border: 1px solid gray;
+}
+			
+input[type='text']{
+	width: 50%;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+			
+#chat-message-list li{
+	list-style-type: none;
+	padding: 0;
+}
+
+#username{
+	color:red;
+}
+
+.message{
+	color:black;
+}
+
+#info{
+	margin: 10px;
+}
+
+input[type="submit"]{
+	visibility:hidden;
+}
+
+.mynavbar{
+	border-radius: 10px;
+	margin: 10px;
+	background-color: #b20000;
+}
+
+#title{
+	text-align: center;
+}
+
+.input-box{
+	border:1px solid black;
+}	

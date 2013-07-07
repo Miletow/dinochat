@@ -1,0 +1,21 @@
+
+{
+	"name": "Dino Chat",
+	"description": "Chit chat with anyone that's viewing the same page as you!",
+	"version": "0.30",
+	"manifest_version": 2,
+	"content_security_policy":
+   	"script-src 'self' https://cdn.firebase.com https://*.firebaseio.com; object-src 'self'",
+	"browser_action": {
+		"default_popup": "chat.html",
+		"default_title": "Web Chat",
+		"default_icon": "alert.png",
+		"persistent": true
+	},
+	"background": {	
+    "scripts": ["firebase.js","background.js","sha1.js"]
+  },
+	"permissions": ["tabs", "notifications","cookies"],
+	"icons": { "alert": "alert.png",
+						 "red-alert": "red_alert.png" }
+}
